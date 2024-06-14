@@ -1,6 +1,6 @@
 ﻿namespace Contact_Manager.ContactManager
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -48,7 +48,7 @@
         }
 
         // Method to add a contact
-        public void AddContact(string firstName, string lastName, string phoneNumber, string type)
+        public string AddContact(string firstName, string lastName, string phoneNumber, string type)
         {
             // Check if first name, last name, and phone number are not empty
             if (!string.IsNullOrEmpty(firstName) && !string.IsNullOrEmpty(lastName) && !string.IsNullOrEmpty(phoneNumber))
@@ -60,6 +60,7 @@
                 {
                     // Add the contact to the list
                     contacts.Add(contact);
+                    return $"Contact '{firstName} {lastName}' added successfully.";
                 }
                 else
                 {
@@ -67,6 +68,8 @@
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine($"Warning: The Contact '{firstName} {lastName}' has already been added.\n");
                     Console.ResetColor();
+                    return $"Warning: The Contact '{firstName} {lastName}' already exists.";
+
                 }
             }
             else
@@ -75,6 +78,7 @@
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Warning: You cannot add an empty contact!\n");
                 Console.ResetColor();
+                return "Warning: You cannot add an empty contact!";
             }
         }
 
