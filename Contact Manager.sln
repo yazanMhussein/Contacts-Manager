@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact Manager", "Contact Manager\Contact Manager.csproj", "{2ECE1901-2F8D-4C26-9219-CBD8F0C5EA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagerTests", "ContactManagerTests\ContactManagerTests.csproj", "{69B8D81B-921F-4939-BEAE-BCCB5F36248A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECE1901-2F8D-4C26-9219-CBD8F0C5EA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECE1901-2F8D-4C26-9219-CBD8F0C5EA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECE1901-2F8D-4C26-9219-CBD8F0C5EA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECE1901-2F8D-4C26-9219-CBD8F0C5EA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B8D81B-921F-4939-BEAE-BCCB5F36248A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B8D81B-921F-4939-BEAE-BCCB5F36248A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B8D81B-921F-4939-BEAE-BCCB5F36248A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B8D81B-921F-4939-BEAE-BCCB5F36248A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BDB20B3-AAE5-4F09-9435-F586C6C15BCA}
+	EndGlobalSection
+EndGlobal
